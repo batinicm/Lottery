@@ -1,4 +1,4 @@
 # Lottery
-Lottery written in Java with GUI
+Lottery Draw simulation written in Java with GUI
 
-Realized using threads in Java.
+Realized using threads.
