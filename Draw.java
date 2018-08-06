@@ -12,7 +12,7 @@ public class Draw extends Frame {
 	private int n;
 	
 	public Draw() {
-		super("Lottery Draft");
+		super("Lottery Draw");
 		setSize(300,180);
 		pop();
 		addWindowListener(new WindowAdapter() {
