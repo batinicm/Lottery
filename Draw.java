@@ -3,7 +3,7 @@ package lottery;
 import java.awt.*;
 import java.awt.event.*;
 
-public class Draft extends Frame {
+public class Draw extends Frame {
 	
 	private Machine mac=new Machine(6);
 	private TextArea res=new TextArea(1, 7);
@@ -11,7 +11,7 @@ public class Draft extends Frame {
 	private Button begin,stop;
 	private int n;
 	
-	public Draft() {
+	public Draw() {
 		super("Lottery Draft");
 		setSize(300,180);
 		pop();
@@ -95,6 +95,6 @@ public class Draft extends Frame {
 	}
 	
 	public static void main(String[] args) {
-		new Draft();
+		new Draw();
 	}
 }
